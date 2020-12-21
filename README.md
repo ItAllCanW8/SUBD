@@ -1,2 +1,2 @@
 # SUBD
-data models and database management systems
+data models and database management systems labs
