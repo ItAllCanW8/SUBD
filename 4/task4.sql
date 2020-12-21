@@ -1,0 +1,1 @@
+SELECT first_name, last_name from firstname, surname where first_name = 'Артур' and last_name = 'Мирончик';

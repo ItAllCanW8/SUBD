@@ -1,0 +1,2 @@
+SELECT last_name FROM surname WHERE last_name LIKE CONCAT('%',replace('Мирончик', right('Мирончик',1),''),'%');
+SELECT last_name FROM surname WHERE last_name LIKE CONCAT('%',replace('Мирончик', right('Мирончик',2),''),'%');

@@ -1,0 +1,2 @@
+SELECT first_name FROM firstname WHERE first_name LIKE CONCAT('%',replace('Артур', right('Артур',1),''),'%');
+SELECT first_name FROM firstname WHERE first_name LIKE CONCAT('%',replace('Артур', right('Артур',2),''),'%');
